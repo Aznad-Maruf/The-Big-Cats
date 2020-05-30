@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+#main-header {
+  color: white;
+  font-weight: bolder;
+  background-color: #292F33;
+  padding: .3em 0em;
+  text-align: center;
+  margin: 0; }
+
+.special-name {
+  color: white;
+  background: url(images/vector-tiger-texture-background.webp) no-repeat;
+  background-size: 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#animal-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 5em;
+  color: #ff5e00;
+  padding: .5em 0em 1.2em 0em; }
+
+img {
+  border: white .2em solid;
+  margin: .2em; }
+
+#nav-bar {
+  background-color: #cf4949; }
+
+#nav-bar-secondary {
+  color: white;
+  background-color: #292F33; }
+
+#nav-bar-secondary ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0; }
+  #nav-bar-secondary ul > li > a {
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: .7em; }
+
+#nav-bar-secondary li:hover {
+  color: 0; }
+
+.single-row {
+  padding: 2em; }
+
+#catphotos {
+  padding: 0; }
+
+.extrapadding {
+  padding-top: 3em; }
+
+.bottompadding {
+  padding-bottom: 10em; }
+
+.about {
+  padding: 10em 0em 10em 0;
+  font-size: 1em; }
+
+ul {
+  list-style: none; }
+
+#nav-bar > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  flex-direction: row; }
+  #nav-bar > ul > li > a {
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1.2em; }
+  #nav-bar > ul > li a:hover {
+    color: #1c1d18;
+    text-decoration: none; }
+
+@media (max-width: 750px) {
+  #nav-bar > ul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+
+  #nav-bar-secondary ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0; } }
+footer {
+  background-color: #dad5be;
+  font-family: sans-serif;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: .5em; }
+  footer p {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
